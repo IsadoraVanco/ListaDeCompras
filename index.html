@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="">
+    <title>Lista de compras</title>
+</head>
+<body>
+    <h1>Lista de compras</h1>
+    <button onclick="adicionar()" id="adicionar" title="Adicionar itens"> + </button>
+    <button onclick="remover()" id="remover" hidden="true" title="Remover itens"> x </button>
+    <button onclick="cancelaRemover()" id="cancelaRemover" title="Voltar" hidden="true"> ←</button>
+    <button onclick="confirmaRemover()" id="confirmaRemover" title="Remover" hidden="true"> x </button>
+    <div id="itemAdicionar"></div>
+    <section id="itens"></section>
+</body>
+<script src="logic.js"></script>
+</html>
